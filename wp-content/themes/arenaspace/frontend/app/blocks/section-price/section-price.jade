@@ -1,0 +1,17 @@
+mixin section-price(data)
+	+b('section').section-price(id='section-price')&attributes(attributes)
+		+e('h2').title= data.h2
+		+e('table').table
+			thead
+				tr
+					td
+					each item in data.table.head
+						td!= item.text
+			tbody
+				each row in data.table.rows
+					tr
+						td.main!= row.text
+						each value in row.values
+							td!= value
+
+

@@ -1,0 +1,10 @@
+mixin feature(feature)
+	+b.feature&attributes(attributes)
+		if feature.icon == 'cube'
+			+e('h3').title_cube= feature.title
+		
+		if feature.icon == '360'
+			+e('h3').title_360= feature.title
+
+		+e('p').text= feature.description
+

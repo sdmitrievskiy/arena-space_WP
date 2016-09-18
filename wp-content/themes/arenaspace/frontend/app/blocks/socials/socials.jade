@@ -1,0 +1,14 @@
+mixin socials(data)
+	+b.socials&attributes(attributes)
+		each item in data
+			if item.social == 'fb'
+				+e('a').social_fb(href=item.link)
+
+			if item.social == 'insta'	
+				+e('a').social_insta(href=item.link)
+
+			if item.social == 'vk'
+				+e('a').social_vk(href=item.link)
+
+			if item.social == 'odnokl'
+				+e('a').social_odnokl(href=item.link)

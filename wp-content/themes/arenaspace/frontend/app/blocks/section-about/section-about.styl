@@ -1,0 +1,72 @@
+.section-about
+	display block
+	margin-top 30px
+	padding-top 45px
+	padding-bottom 110px
+	position relative
+	background url(../../images/about_bg.png)
+
+	&:after
+		content ''
+		display block
+		width 100%
+		height 4px
+		background-color white
+		box-shadow 0px 1px 10px 2px rgba(255, 255, 255, 0.75)
+		position absolute
+		bottom 0
+
+	//&:before
+	//	content ''
+	//	display block
+	//	sprite $girl
+	//	position absolute
+
+	&__highlight-text
+		color white
+		font-size 36px
+		width 520px
+		margin-left 480px
+		letter-spacing 1px
+
+		&:before
+			content ''
+			display block
+			sprite $girl
+			position absolute
+			top -120px
+			left 0
+			z-index 1
+
+		&:after
+			content ''
+			display block
+			sprite $rectangle
+			position absolute
+			top -12px
+			right 50px
+			z-index 0
+			opacity 0.4
+
+
+	&__title
+		font-family 'Circe Bold'
+		color #1e99c3
+		font-size 50px
+		font-weight 900
+		margin-top 45px
+		margin-left 320px
+
+	&__describe-text
+		color white
+		font-size 24px
+		width 520px
+		margin-top 30px
+		margin-left 460px
+		margin-bottom 30px
+		font-weight 600
+		line-height 26px
+
+		p
+			margin-bottom 20px
+

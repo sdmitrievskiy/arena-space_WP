@@ -1,0 +1,116 @@
+.slider
+	display block
+	width 916px
+	margin auto
+	margin-bottom 55px
+
+	&__text
+		color white
+		text-align center
+		font-size 24px
+		padding-left 40px
+		padding-right 40px
+		margin-bottom 45px
+
+
+
+
+.dg-container{
+	width: 100%;
+	//height: 450px;
+	position: relative;
+}
+.dg-wrapper{
+	width: 455px;
+	height: 316px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+
+
+}
+.dg-wrapper a{
+	width: 482px;
+	height: 316px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+	//padding: 41px 0px 0px 1px;
+}
+.dg-wrapper a div{
+
+	text-align: center;
+
+	font-size: 22px;
+	width: 450px;
+	bottom: -5px;
+	display: none;
+	position: absolute;
+	background-color: #1181a1;
+	color: white;
+	padding: 5px;
+
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+
+}
+.dg-wrapper a.dg-center img{
+	box-shadow: 0px 0px 30px 10px rgba(50, 50, 50, 1);
+}
+
+.dg-container span{
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	border-style: solid;
+	border-width: 22.5px 39.0px 22.5px 0;
+	border-color: transparent #127b9e transparent transparent;
+
+	position: absolute;
+	top: 80px;
+}
+.dg-container span:hover{
+	opacity: 1;
+}
+.dg-container span.dg-next{
+	background-position: top right;
+	margin-left: 10px;
+	border-style: solid;
+	border-width: 22.5px 0 22.5px 39.0px;
+	border-color: transparent transparent transparent #127b9e;
+
+}
+.dg-container span.dg-next {
+	right: -60px;
+	z-index: 999;
+}
+
+.dg-container span.dg-prev {
+	left: -60px;
+	z-index: 999;
+}

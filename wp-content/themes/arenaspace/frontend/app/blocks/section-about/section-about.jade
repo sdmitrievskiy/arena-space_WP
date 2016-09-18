@@ -1,0 +1,10 @@
+include ../section-inside/section-inside
+
+mixin section-about(data)
+	+b('section').section-about(id='section-about')&attributes(attributes)
+		.wrapper
+			+e('p').highlight-text=  data.highlightText
+			+e('h2').title= data.h2
+			+e.describe-text!= data.describeText
+
+		+section-inside(data.section_inside)

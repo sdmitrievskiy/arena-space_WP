@@ -1,0 +1,10 @@
+include ../feature/feature
+
+mixin section-inside(data)
+	+b('section').section-inside(id='section-inside')&attributes(attributes)
+		+e('h2').title= data.h2
+		.wrapper
+			+e.features
+				each feature in data.items
+					+feature(feature)
+

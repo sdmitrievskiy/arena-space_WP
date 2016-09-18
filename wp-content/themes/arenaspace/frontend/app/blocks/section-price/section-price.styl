@@ -1,0 +1,48 @@
+.section-price
+	display block
+	background-color #2d3438
+	padding-top 45px;
+
+	&__title
+		text-align center
+		color white
+		font-size 50px
+		font-family 'Circe Bold'
+
+	&__table
+		width 855px
+		margin auto
+		margin-top 30px
+		font-family 'Circe Bold'
+		color white
+
+		.blue
+			color #00dffd
+
+		td
+			padding 30px
+			text-align center
+
+		thead
+			background-color #262c2f
+			font-size 18px
+
+
+		tbody
+			tr
+				font-size 20px
+				&:nth-child(2)
+					td
+						background-color #262c2f
+
+				td.main
+					padding-right 70px
+					position relative
+					&:after
+						content ''
+						display block
+						position absolute
+						sprite $arrow
+						top 40%
+						right 0px
+

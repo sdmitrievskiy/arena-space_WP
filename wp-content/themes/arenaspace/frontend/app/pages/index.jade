@@ -1,0 +1,33 @@
+include /blocks/fixed-menu/fixed-menu
+include /blocks/header/header
+include /blocks/section-about/section-about
+include /blocks/section-games/section-games
+include /blocks/section-security/section-security
+include /blocks/section-form/section-form
+include /blocks/section-address/section-address
+include /blocks/section-price/section-price
+include /blocks/section-partners/section-partners
+include /blocks/footer/footer
+include /blocks/loader/loader
+
+extends /blocks/layout-default/layout-default
+
+block head
+	- var pageTitle = 'CSSSR Project Template';
+
+block content
+	- var data = getData('landingData');
+	//h2= data.fixedMenu.logo.link 
+
+	+loader()
+	+fixed-menu(data.fixedMenu)
+	+header(data.header)
+	+section-about(data.section_about)
+	+section-games(data.section_games)
+	+section-security(data.section_security)
+	+section-form(data.section_form)
+	+section-address(data.section_address)
+	+section-price(data.section_price)
+	+section-partners(data.section_partners)
+	+footer(data.footer)
+

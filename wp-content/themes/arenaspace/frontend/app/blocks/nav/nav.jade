@@ -1,0 +1,30 @@
+mixin nav(data, position)
+
+	if position == 'footer'
+		+b('ul').nav_footer&attributes(attributes)
+			each item in data
+				if item.mod == 'common'
+					+e('li').item()
+						a(href=item.href, target="_blank")= item.title
+				else if item.mod == 'button'
+					+e('li').item_button()
+						a(href=item.href, target="_blank")= item.title
+				else if item.mod == 'info'
+					+e('li').item_info()
+						a(href=item.href, target="_blank")= item.title
+
+	else if position == 'common'
+		+b('ul').nav&attributes(attributes)
+			each item in data
+				if item.mod == 'common'
+					+e('li').item()
+						a(href=item.href, target="_blank")= item.title
+				else if item.mod == 'button'
+					+e('li').item_button()
+						a(href=item.href, target="_blank")= item.title
+				else if item.mod == 'info'
+					+e('li').item_info()
+						a(href=item.href, target="_blank")= item.title
+
+
+

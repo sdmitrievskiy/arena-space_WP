@@ -1,0 +1,93 @@
+.nav
+	display flex
+
+	&_footer
+		display block
+		margin-left 120px
+		margin-top 5px
+
+		.nav__item
+			margin-right 0px
+			padding 0
+			margin-bottom 13px
+
+
+			&:hover
+				background none
+
+
+				a
+					color #00dffd
+
+			a
+				color white
+				font-size 18px
+				font-family 'Open Sans'
+
+			&_button
+				background none
+				margin-left 0
+
+				&:hover
+					background none
+					transform none
+				a
+					color #00dffd
+
+					&:hover
+						text-decoration underline
+
+	&__item
+		margin-right 6px
+		font-size 20px
+		font-weight 600
+		padding 10px
+		letter-spacing 1px
+
+		&:last-child
+			margin-right 0px
+
+		&:hover
+			background-color #00dffd
+			transition: all 0.3s ease-in-out;
+
+			a
+				color white
+
+		a
+			color #171717
+			text-decoration none
+
+			&:hover
+				color white
+
+		&_info
+			position relative
+			margin-left 40px
+			&:before
+				content ''
+				position absolute
+				top 0
+				left -35px
+				sprite $find
+
+
+
+		&_button
+			margin-left 10px
+			background-color #00dffd
+			transition: all 0.1s ease-in-out;
+
+			&:hover
+				background-color #00cbe6
+				transform scale(1.1)
+
+			a
+				color white
+
+				&:hover
+					text-decoration none
+
+
+
+

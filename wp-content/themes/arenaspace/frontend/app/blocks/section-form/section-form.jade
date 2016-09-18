@@ -1,0 +1,14 @@
+mixin section-form(data)
+	+b('section').section-form(id='section-form')&attributes(attributes)
+
+		.left
+
+		.center
+			+e('h2').title= data.h2
+			+e('form').form
+				input(type='text', placeholder='Ваше имя', name='name')
+				input(type='text', placeholder='Ваш email', name='mail')
+				button(type='submit') ЗАРЕГИСТРИРОВАТЬСЯ
+
+		.right
+

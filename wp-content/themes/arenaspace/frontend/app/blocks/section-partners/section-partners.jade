@@ -1,0 +1,6 @@
+mixin section-partners(data)
+	+b('section').section-partners&attributes(attributes)
+
+		.partner-wrapper
+			+e('h2').title= data.h2
+			+e('img').image(src=data.partners)

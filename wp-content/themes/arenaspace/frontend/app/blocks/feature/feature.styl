@@ -1,0 +1,55 @@
+.feature
+	display block
+	width 400px
+	color white
+
+	&__title
+		font-size 32px
+		padding-left 160px
+		font-weight 600
+		position relative
+
+		&.animate
+			&:before
+				animation: rotate 4s 1 linear;
+
+		&_cube
+
+			&:before
+				content ''
+				display block
+				sprite $icon_cube
+				position absolute
+				top -120px
+				left -100px
+
+
+		&_360
+			padding-left 150px
+			&:before
+				content ''
+				display block
+				sprite $icon_360
+				position absolute
+				top -120px
+				left -100px
+
+
+
+
+
+	&__text
+		margin-top 50px
+		font-size 21px
+		text-align justify
+		font-weight 600
+
+@keyframes rotate {
+	from {
+		transform: rotateY(0);
+	}
+
+	to {
+		transform: rotateY(360deg);
+	}
+}

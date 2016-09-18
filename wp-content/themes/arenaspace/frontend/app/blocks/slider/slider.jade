@@ -1,0 +1,16 @@
+mixin slider(data)
+	+b.slider&attributes(attributes)
+		+e('p').text= data.text
+
+		.dg-container
+			.dg-wrapper
+				each item in data.items
+					+e('a').item
+						img(src= item.image)
+						div.text= item.description
+
+
+			nav
+				span.dg-prev hi
+
+				span.dg-next next

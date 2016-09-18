@@ -1,0 +1,8 @@
+mixin section-security(data)
+	+b('section').section-security&attributes(attributes)
+		+e('h2').title= data.h2
+		+e('p').sub-text= data.text
+		+e.feature-list
+			ul.columnize-js
+				each item in data.items
+					li= item.text

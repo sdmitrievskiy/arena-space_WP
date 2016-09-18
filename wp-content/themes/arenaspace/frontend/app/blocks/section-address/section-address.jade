@@ -1,0 +1,5 @@
+mixin section-address(data)
+	+b('section').section-address(id='section-address')&attributes(attributes)
+		+e('h2').title= data.h2
+		+e.text!= data.html
+

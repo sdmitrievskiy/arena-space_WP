@@ -1,0 +1,15 @@
+include ../logo/logo
+include ../nav/nav
+include ../socials/socials
+
+mixin footer(data)
+	+b('footer').footer&attributes(attributes)
+		.wrapper
+			.column
+				+logo(data.logo)
+				+e('p').copyright!= data.copyright
+			.column
+				+nav(data.menuLinks, 'footer')
+
+			+socials(data.socials)
+		

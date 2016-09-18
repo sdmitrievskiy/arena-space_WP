@@ -1,0 +1,8 @@
+include ../slider/slider
+
+mixin section-games(data)
+	+b('section').section-games(id='section-games')&attributes(attributes)
+		+e('h2').title= data.h2
+		.wrapper
+			+slider(data.slider1)
+			+slider(data.slider2)

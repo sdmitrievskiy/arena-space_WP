@@ -1,0 +1,9 @@
+include ../logo/logo
+include ../nav/nav
+
+mixin fixed-menu(data)
+	+b('nav').fixed-menu&attributes(attributes)
+		.wrapper
+			+logo(data.logo)
+			+nav(data.menuLinks, 'common')
+		
