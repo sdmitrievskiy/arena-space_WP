@@ -17,6 +17,8 @@
  *
  * @package WordPress
  */
+define('WP_DEBUG', false);
+@ini_set('display_errors', 1);
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
