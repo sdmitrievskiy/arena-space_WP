@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -74,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section-form.styl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="section-form.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/section-form/section-form.styl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
@@ -87,7 +87,7 @@
       <file leaf-file-name="arena-space_local.sql" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/arena-space_local.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
+            <state relative-caret-position="-55538">
               <caret line="367" column="41" selection-start-line="367" selection-start-column="41" selection-end-line="367" selection-end-column="41" />
               <folding />
             </state>
@@ -137,13 +137,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/fixed-menu/fixed-menu.styl" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/loader/loader.styl" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
         <option value="$USER_HOME$/Downloads/arena-space_local.sql" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/.gitignore" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/section-form/section-form.styl" />
+        <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/header.php" />
       </list>
     </option>
   </component>
@@ -260,32 +260,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arena-space_local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arena-space_local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arenaspace" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -343,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474189823795</updated>
-      <workItem from="1474189825935" duration="10390000" />
+      <workItem from="1474189825935" duration="10683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10390000" />
+    <option name="totallyTimeSpent" value="10683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -694,14 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -728,7 +694,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/arena-space_local.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
+        <state relative-caret-position="-55538">
           <caret line="367" column="41" selection-start-line="367" selection-start-column="41" selection-end-line="367" selection-end-column="41" />
           <folding />
         </state>
@@ -754,6 +720,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="140" column="19" selection-start-line="140" selection-start-column="19" selection-end-line="140" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>

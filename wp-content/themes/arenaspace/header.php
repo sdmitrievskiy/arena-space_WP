@@ -15,7 +15,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+	
+	<title><?php wp_title(); ?></title>
 	<link sizes="32x32" href="/favicon-32x32.png" rel="icon" type="image/png">
 
 
