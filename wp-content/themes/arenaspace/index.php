@@ -23,8 +23,8 @@ get_header(); ?>
 </div>
 <nav class="fixed-menu">
 	<div class="wrapper">
-		<a href="#" class="logo">
-			<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/frontend/dist/images/logo.png" />
+		<a href="#" class="logo logo_header">
+
 		</a>
 		<ul class="nav">
 			<li class="nav__item">
@@ -264,8 +264,8 @@ get_header(); ?>
 <footer class="footer">
 	<div class="wrapper">
 		<div class="column">
-			<a href="#" class="logo">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/frontend/dist/images/logo_footer.png" />
+			<a href="#" class="logo logo_footer">
+
 			</a>
 			<p class="footer__copyright">(с) Copyright Arena Space</br>2016</p>
 		</div>

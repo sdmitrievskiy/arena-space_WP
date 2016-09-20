@@ -4,6 +4,6 @@ include ../nav/nav
 mixin fixed-menu(data)
 	+b('nav').fixed-menu&attributes(attributes)
 		.wrapper
-			+logo(data.logo)
+			+logo(data.logo, 'header')
 			+nav(data.menuLinks, 'common')
 		

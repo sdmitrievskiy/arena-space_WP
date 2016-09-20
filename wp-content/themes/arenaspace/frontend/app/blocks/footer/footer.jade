@@ -6,7 +6,7 @@ mixin footer(data)
 	+b('footer').footer&attributes(attributes)
 		.wrapper
 			.column
-				+logo(data.logo)
+				+logo(data.logo, 'footer')
 				+e('p').copyright!= data.copyright
 			.column
 				+nav(data.menuLinks, 'footer')

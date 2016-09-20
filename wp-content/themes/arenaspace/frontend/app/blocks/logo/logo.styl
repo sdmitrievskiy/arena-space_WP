@@ -1,2 +1,21 @@
 .logo
 	display block
+	transition: all 0.1s ease-in-out;
+	background-repeat no-repeat
+
+	&_header
+		width 198px
+		height 68px
+		background url("../../images/logo_footer.png") no-repeat
+
+	&_footer
+		width 198px
+		height 68px
+		background url("../../images/logo_footer.png") no-repeat
+
+.white
+	.logo
+		&_header
+			width 130px
+			height 45px
+			background url("../../images/logo.png") no-repeat

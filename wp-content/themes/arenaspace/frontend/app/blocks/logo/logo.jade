@@ -1,3 +1,7 @@
-mixin logo(data)
-	+b('a').logo(href=data.link)&attributes()
-		img(src=data.image)
+mixin logo(data, mod)
+	if mod == 'header'
+		+b('a').logo_header(href=data.link)&attributes()
+	if mod == 'footer'
+		+b('a').logo_footer(href=data.link)&attributes()
+
+

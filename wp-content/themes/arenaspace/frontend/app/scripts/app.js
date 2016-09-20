@@ -54,7 +54,6 @@ $(document).ready(function () {
         //console.log($('.fixed-menu'));
         if(s_top > yes){
             $('.fixed-menu').addClass('white');
-
             //console.log(4);
         }
         else {
