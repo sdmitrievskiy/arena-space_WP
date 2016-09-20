@@ -16,13 +16,14 @@
 
 get_header(); ?>
 
-<div class="loader-wrapper">
-	<div class="cssload-container">
-		<div class="cssload-speeding-wheel"></div>
-	</div>
-</div>
+<!--<div class="loader-wrapper">-->
+<!--	<div class="cssload-container">-->
+<!--		<div class="cssload-speeding-wheel"></div>-->
+<!--	</div>-->
+<!--</div>-->
 <nav class="fixed-menu">
 	<div class="wrapper">
+		
 		<a href="#" class="logo logo_header">
 
 		</a>
@@ -53,14 +54,14 @@ get_header(); ?>
 </nav>
 <header class="header">
 	<h1>Стань героем сверхновой реальности</h1>
-	<video autoplay="autoplay" muted="muted" loop="loop" id="video">
-		<source src="<?php echo esc_url( get_template_directory_uri() ); ?>/frontend/dist/sample.mp4" />
-	</video>
+<!--	<video autoplay="autoplay" muted="muted" loop="loop" id="video">-->
+<!--		<source src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/frontend/dist/sample.mp4" />-->
+<!--	</video>-->
 </header>
 <section id="section-about" class="section-about">
 	<div class="wrapper">
 		<p class="section-about__highlight-text">Добро пожаловать в сверхновую реальность, где возможно самое невероятное!</p>
-		<h2 class="section-about__title">ЧТО ТАКОЕ ARENA-SPACE?</h2>
+		<h2 class="section-about__title">ЧТО ТАКОЕ ARENA SPACE?</h2>
 		<div class="section-about__describe-text">
 			<p>ARENA SPACE - это уникальное пространство виртуальных развлечений.</p>
 			</p>Мы открываем для вас портал во Вселенную, где можно не только погрузиться в любой фантастический мир и быть в самом
