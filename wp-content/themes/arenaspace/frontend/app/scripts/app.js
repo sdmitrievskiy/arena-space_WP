@@ -9,13 +9,13 @@ require('./vendor/jquery.tubular.js');
 $(document).ready(function () {
 
 
-    var video = document.getElementById("video");
-    video.addEventListener("canplay", function () {
-        console.log('start video');
-        $('.loader-wrapper').animate({opacity: 0}, 1500, function () {
-            $(this).hide();
-        });
-    }, false);
+    // var video = document.getElementById("video");
+    // video.addEventListener("canplay", function () {
+    //     console.log('start video');
+    //     $('.loader-wrapper').animate({opacity: 0}, 1500, function () {
+    //         $(this).hide();
+    //     });
+    // }, false);
 
     // $('.header').tubular({videoId: 's9e9p_nTNMc'});
 
@@ -54,6 +54,7 @@ $(document).ready(function () {
         //console.log($('.fixed-menu'));
         if(s_top > yes){
             $('.fixed-menu').addClass('white');
+            
             //console.log(4);
         }
         else {

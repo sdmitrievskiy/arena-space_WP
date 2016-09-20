@@ -8,6 +8,9 @@
  *
  * Date: Mon Jan 30 2012
  */
+require('hammerjs');
+require('./jquery.hummer.js');
+
 
 (function( $, undefined ) {
 	
@@ -40,6 +43,7 @@
 			console.log(this.support3d);
 			
 			this.$wrapper		= this.$el.find('.dg-wrapper');
+
 			
 			this.$items			= this.$wrapper.children();
 			this.itemsCount		= this.$items.length;
@@ -220,6 +224,40 @@
 				return false;
 				
 			});
+
+			this.$el.hammer().bind("swipeleft", function(){
+				if( _self.options.autoplay ) {
+
+					clearTimeout( _self.slideshow );
+					_self.options.autoplay	= false;
+
+				}
+
+				_self._navigate('next');
+				return false;
+			});
+
+			this.$el.hammer().bind("swiperight", function(){
+				if( _self.options.autoplay ) {
+
+					clearTimeout( _self.slideshow );
+					_self.options.autoplay	= false;
+
+				}
+
+				_self._navigate('prev');
+				return false;
+			});
+
+			// this.$el.swipe( {
+			// 	//Generic swipe handler for all directions
+			// 	swipeLeft:function(event, direction, distance, duration, fingerCount) {
+			// 		console.log(direction);
+			// 	},
+			// 	swiperRight:function(event, direction, distance, duration, fingerCount) {
+			// 		console.log('right');
+			// 	}
+			// });
 			
 			this.$wrapper.on( 'webkitTransitionEnd.gallery transitionend.gallery OTransitionEnd.gallery', function( event ) {
 				

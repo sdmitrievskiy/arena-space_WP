@@ -42,7 +42,30 @@
 						content ''
 						display block
 						position absolute
-						sprite $arrow
+						animation arrow-move  0.5s infinite linear
 						top 40%
 						right 0px
+						height 14px
+						width 34px
+						background-image url(../../images/arrow_state-1.png)
+						background-repeat no-repeat
 
+
+
+@keyframes arrow-move {
+	from {
+		background-image url(../../images/arrow_state-1.png)
+	}
+	40% {
+		background-image url(../../images/arrow_state-2.png)
+	}
+	60% {
+		background-image url(../../images/arrow_state-3.png)
+	}
+	80% {
+		background-image url(../../images/arrow_state-4.png)
+	}
+	to {
+		background-image url(../../images/arrow_state-4.png)
+	}
+}
