@@ -8,7 +8,7 @@ include /blocks/section-address/section-address
 include /blocks/section-price/section-price
 include /blocks/section-partners/section-partners
 include /blocks/footer/footer
-include /blocks/loader/loader
+
 
 extends /blocks/layout-default/layout-default
 
@@ -19,7 +19,6 @@ block content
 	- var data = getData('landingData');
 	//h2= data.fixedMenu.logo.link 
 
-	//+loader()
 	+fixed-menu(data.fixedMenu)
 	+header(data.header)
 	+section-about(data.section_about)

@@ -10,6 +10,7 @@ var SectionForm = {
     },
     cacheDom: function() {
         this.$el     = $('#section-form');
+
         this.$center = $('.section-form .center');
         this.$form   = $('.section-form__form');
         this.$title  = $('.section-form__title');

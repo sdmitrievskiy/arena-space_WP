@@ -1,7 +1,11 @@
+include ./../loader/loader
+
+// когда появится видео, расскомментить
 mixin header(data)
+	//+loader()
 	+b('header').header&attributes(attributes)
 		h1= data.h1
 
-		//video(autoplay, muted, loop, id='video', poster)
+		//video(autoplay, muted, loop, id='video')
 		//	source(src='sample.mp4')
 
