@@ -1,15 +1,14 @@
 import $ from 'jquery';
+
 import FixedMenu from './../blocks/fixed-menu/FixedMenu';
 import Slider from './../blocks/slider/Slider';
-
-require('jquery-columnizer');
-
-
+import SectionSecurity from './../blocks/section-security/SectionSecurity';
 
 
 $(document).ready(function () {
     FixedMenu.init();
     Slider.init();
+    SectionSecurity.init();
 
     //расскомментировать, когда появится видео.
 
@@ -21,28 +20,6 @@ $(document).ready(function () {
     //     });
     // }, false);
 
-
-
-    
-    
-    $('.columnize-js').columnize({
-        columns: 2
-    });
-
-
-    $(".nav a").click(function () {
-
-        console.log($(this).data('modal'));
-        if (!$(this).data('modal')) {
-            var elementClick = $(this).attr("href");
-            var destination = $(elementClick).offset().top - 100;
-            $('html,body').animate( { scrollTop: destination }, 1100 );
-        } else {
-            //do modal
-        }
-
-        return false;
-    });
 
     $(document).scroll(function () {
         //console.log(2);

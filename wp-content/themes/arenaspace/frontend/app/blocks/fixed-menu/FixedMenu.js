@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import Nav from './../nav/Nav'
 
 var FixedMenu = {
     config: {
@@ -6,6 +7,8 @@ var FixedMenu = {
       classToFixedMenu: 'white'
     },
     init: function() {
+        Nav.init(); //также произойдет инициализация меню в футере
+
         this.cacheDom();
         this.bindEvents();
 

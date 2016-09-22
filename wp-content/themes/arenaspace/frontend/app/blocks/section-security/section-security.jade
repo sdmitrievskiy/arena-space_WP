@@ -3,6 +3,6 @@ mixin section-security(data)
 		+e('h2').title= data.h2
 		+e('p').sub-text= data.text
 		+e.feature-list
-			ul.columnize-js
+			ul.feature-list-columnize-js
 				each item in data.items
 					li= item.text
