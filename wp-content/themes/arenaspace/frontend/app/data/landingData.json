@@ -8,37 +8,45 @@
 			{
 				"title": "О нас",
 				"href": "#section-about",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "VR пространство",
 				"href": "#section-inside",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "Каталог игр",
 				"href": "#section-games",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "Контакты",
 				"href": "#section-address",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "Цены",
 				"href": "#section-price",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "FAQ",
 				"href": "#section-form",
-				"mod": "info"
+				"mod": "info",
+				"modal": "true"
 			},
 			{
 				"title": "Франшиза",
 				"href": "#",
-				"mod": "common"
+				"mod": "common",
+				"modal": "true"
+
 			}
 		]
 	},

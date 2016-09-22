@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import FixedMenu from './../blocks/fixed-menu/FixedMenu';
 
 require('./vendor/jquery.gallery.js');
 require('jquery-columnizer');
@@ -7,7 +8,9 @@ require('./vendor/jquery.tubular.js');
 
 
 $(document).ready(function () {
+    FixedMenu.init();
 
+    //расскомментировать, когда появится видео.
 
     // var video = document.getElementById("video");
     // video.addEventListener("canplay", function () {
@@ -17,7 +20,7 @@ $(document).ready(function () {
     //     });
     // }, false);
 
-    // $('.header').tubular({videoId: 's9e9p_nTNMc'});
+
 
     $('.dg-container').gallery();
     $('.columnize-js').columnize({
@@ -26,9 +29,16 @@ $(document).ready(function () {
 
 
     $(".nav a").click(function () {
-        var elementClick = $(this).attr("href");
-        var destination = $(elementClick).offset().top - 100;
-        $('html,body').animate( { scrollTop: destination }, 1100 );
+
+        console.log($(this).data('modal'));
+        if (!$(this).data('modal')) {
+            var elementClick = $(this).attr("href");
+            var destination = $(elementClick).offset().top - 100;
+            $('html,body').animate( { scrollTop: destination }, 1100 );
+        } else {
+            //do modal
+        }
+
         return false;
     });
 
@@ -45,22 +55,7 @@ $(document).ready(function () {
         }
     });
 
-    $(document).scroll(function () {
-        // console.log(3);
-        //console.log(1);
-        var s_top = $(window).scrollTop();
-        //console.log(s_top);
-        var yes = 50;
-        //console.log($('.fixed-menu'));
-        if(s_top > yes){
-            $('.fixed-menu').addClass('white');
-            
-            //console.log(4);
-        }
-        else {
-            $('.fixed-menu').removeClass('white');
-        }
-    });
+
 
     $(document).scroll(function () {
         var s_top = $(window).scrollTop();
@@ -68,11 +63,11 @@ $(document).ready(function () {
         var no = $("#section-inside").offset().top + 200;
         if(s_top > yes && s_top < no){
             $('.feature__title').addClass('animate');
-            // console.log('animate');
+
         }
         else {
             $('.feature__title').removeClass('animate');
-            // console.log('no animate');
+
         }
 
     });
