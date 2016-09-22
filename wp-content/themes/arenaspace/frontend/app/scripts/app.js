@@ -1,14 +1,15 @@
 import $ from 'jquery';
 import FixedMenu from './../blocks/fixed-menu/FixedMenu';
+import Slider from './../blocks/slider/Slider';
 
-require('./vendor/jquery.gallery.js');
 require('jquery-columnizer');
-require('./vendor/jquery.tubular.js');
+
 
 
 
 $(document).ready(function () {
     FixedMenu.init();
+    Slider.init();
 
     //расскомментировать, когда появится видео.
 
@@ -22,7 +23,8 @@ $(document).ready(function () {
 
 
 
-    $('.dg-container').gallery();
+    
+    
     $('.columnize-js').columnize({
         columns: 2
     });

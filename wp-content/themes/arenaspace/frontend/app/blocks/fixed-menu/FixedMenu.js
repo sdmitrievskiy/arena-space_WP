@@ -6,10 +6,10 @@ var FixedMenu = {
       classToFixedMenu: 'white'
     },
     init: function() {
-        console.log('fixed menu init');
-        console.log(this.config.scrollPositionToFixedMenu);
         this.cacheDom();
         this.bindEvents();
+
+        console.log('fixed menu init...');
     },
     cacheDom: function() {
         this.$el = $('.fixed-menu');
