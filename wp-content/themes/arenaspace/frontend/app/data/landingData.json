@@ -58,7 +58,7 @@
 	"section_about": {
 		"h2": "ЧТО ТАКОЕ ARENA-SPACE?",
 		"highlightText": "Добро пожаловать в сверхновую  реальность, где возможно самое невероятное!",
-		"describeText": "<p>ARENA SPACE - это уникальное пространство виртуальных развлечений.</p></p>Мы открываем для вас портал во Вселенную, где можно не только погрузиться в любой фантастический мир и быть в самом центре киносюжета с видео 360°, но и стать героем любимой игры, побеждать вселенское зло, пилотировать межгалактические звездолеты  или рисовать собственные миры и пространства.</p>",
+		"describeText": "<p>ARENA SPACE - это уникальное пространство виртуальных развлечений.</p></p>Мы открываем для вас портал во Вселенную, где &nbsp;&nbspможно не только погрузиться в любой &nbsp;&nbsp;&nbsp;фантастический мир и быть в самом центре &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;киносюжета с видео 360°, но и стать героем &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;любимой игры, побеждать вселенское зло, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;пилотировать межгалактические &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;звездолеты  или рисовать собственные &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;миры и пространства.</p>",
 		"section_inside": {
 			"h2": "ИЗ ЧЕГО СОСТОИТ ARENA SPACE",
 			"items": [
@@ -161,34 +161,30 @@
 			"head": [
 				{
 					"index": 0,
-					"text": "Будние дни</br>11:00-18:00</br>сеансы</br>5/<span class='blue'>15 мин</span>"
+					"text": "<span class='blue'>5 минут</span>"
 				},
 				{
 					"index": 1,
-					"text": "Будние дни</br>18:00-20:00</br>сеансы</br>5/<span class='blue'>15 мин</span>"
-				},
-				{
-					"index": 2,
-					"text": "Выходные дни</br>11:00-20:00</br>сеансы</br>5/<span class='blue'>15 мин</span>"
+					"text": "<span class='blue'>10 минут</span>"
 				}
 			],
 			"rows": [
 				{
 					"row-index": "0",
 					"text": "<span class='blue'>ИГРОВОЙ КУБ</span>",
-					"values": ["2000/<span class='blue'>5000</span>", "2000/<span class='blue'>5000</span>", "2000/<span class='blue'>5000</span>"]
+					"values": ["300<span class='blue'>руб</span>", "200<span class='blue'>руб</span>"]
 					
 				},
 				{
 					"row-index": "1",
 					"text": "<span class='blue'>КИНОМОДУЛЬ 360</span>",
-					"values": ["2000/<span class='blue'>5000</span>", "2000/<span class='blue'>5000</span>", "2000/<span class='blue'>5000</span>"]
+					"values": ["300<span class='blue'>руб</span>", "200<span class='blue'>руб</span>"]
 					
 				},
 				{
 					"row-index": "1",
 					"text": "<span class='blue'>ИГРОВОЙ КУБ</br>+</br>КИНОМОДУЛЬ 360</span>",
-					"values": ["2000/<span class='blue'>5000</span>", "2000/<span class='blue'>5000</span>", "2000/<span class='blue'>5000</span>"]
+					"values": ["300<span class='blue'>руб</span>", "200<span class='blue'>руб</span>"]
 					
 				}
 			]
@@ -230,37 +226,46 @@
 			{
 				"title": "О нас",
 				"href": "#section-about",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "VR пространство",
 				"href": "#section-inside",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "Каталог игр",
 				"href": "#section-games",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "Контакты",
 				"href": "#section-address",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "Цены",
 				"href": "#section-price",
-				"mod": "common"
+				"mod": "common",
+				"modal": "false"
 			},
 			{
 				"title": "FAQ",
-				"href": "#section-form",
-				"mod": "common"
+				"href": "#animatedModalFaq1",
+				"mod": "common",
+				"id": "demo4",
+				"modal": "true"
 			},
 			{
 				"title": "Франшиза",
-				"href": "#",
-				"mod": "common"
+				"href": "#animatedModalFran1",
+				"mod": "common",
+				"id": "demo3",
+				"modal": "true"
 			}
 		]
 

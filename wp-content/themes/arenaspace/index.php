@@ -64,9 +64,11 @@ get_header(); ?>
 		<h2 class="section-about__title">ЧТО ТАКОЕ ARENA SPACE?</h2>
 		<div class="section-about__describe-text">
 			<p>ARENA SPACE - это уникальное пространство виртуальных развлечений.</p>
-			</p>Мы открываем для вас портал во Вселенную, где можно не только погрузиться в любой фантастический мир и быть в самом
-			центре киносюжета с видео 360°, но и стать героем любимой игры, побеждать вселенское зло, пилотировать межгалактические
-			звездолеты или рисовать собственные миры и пространства.</p>
+			</p>Мы открываем для вас портал во Вселенную, где &nbsp;&nbspможно не только погрузиться в любой &nbsp;&nbsp;&nbsp;фантастический
+			мир и быть в самом центре &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;киносюжета с видео 360°, но и стать героем &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;любимой
+			игры, побеждать вселенское зло, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;пилотировать межгалактические
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;звездолеты или рисовать собственные &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;миры
+			и пространства.</p>
 		</div>
 	</div>
 	<section id="section-inside" class="section-inside">
@@ -198,15 +200,17 @@ get_header(); ?>
 	<table class="section-price__table">
 		<thead>
 		<tr>
+			<td>
+			<td colspan="2">Сеансы</td>
+			</td>
+		</tr>
+		<tr>
 			<td></td>
-			<td>Будние дни</br>11:00-18:00</br>сеансы</br>5/
-				<span class='blue'>15 мин</span>
+			<td>
+				<span class='blue'>5 минут</span>
 			</td>
-			<td>Будние дни</br>18:00-20:00</br>сеансы</br>5/
-				<span class='blue'>15 мин</span>
-			</td>
-			<td>Выходные дни</br>11:00-20:00</br>сеансы</br>5/
-				<span class='blue'>15 мин</span>
+			<td>
+				<span class='blue'>10 минут</span>
 			</td>
 		</tr>
 		</thead>
@@ -215,42 +219,33 @@ get_header(); ?>
 			<td class="main">
 				<span class='blue'>ИГРОВОЙ КУБ</span>
 			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
+			<td>300
+				<span class='blue'>руб</span>
 			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
-			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
+			<td>200
+				<span class='blue'>руб</span>
 			</td>
 		</tr>
 		<tr>
 			<td class="main">
 				<span class='blue'>КИНОМОДУЛЬ 360</span>
 			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
+			<td>300
+				<span class='blue'>руб</span>
 			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
-			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
+			<td>200
+				<span class='blue'>руб</span>
 			</td>
 		</tr>
 		<tr>
 			<td class="main">
 				<span class='blue'>ИГРОВОЙ КУБ</br>+</br>КИНОМОДУЛЬ 360</span>
 			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
+			<td>300
+				<span class='blue'>руб</span>
 			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
-			</td>
-			<td>2000/
-				<span class='blue'>5000</span>
+			<td>200
+				<span class='blue'>руб</span>
 			</td>
 		</tr>
 		</tbody>

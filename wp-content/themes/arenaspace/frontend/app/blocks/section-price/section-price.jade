@@ -5,6 +5,9 @@ mixin section-price(data)
 			thead
 				tr
 					td
+						td(colspan=2) Сеансы
+				tr
+					td
 					each item in data.table.head
 						td!= item.text
 			tbody
