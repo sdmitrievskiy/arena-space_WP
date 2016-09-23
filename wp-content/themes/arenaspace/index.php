@@ -299,7 +299,7 @@ get_header(); ?>
 	</div>
 </footer>
 
-<div id="animatedModalFran">
+<div id="animatedModalFran" class="modalContainer">
 	<div id="btn-close-modal" class="closeModal close-animatedModalFran">
 		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
 	</div>
@@ -308,7 +308,7 @@ get_header(); ?>
 		echo $my_post_obj->post_content; ?>
 	</div>
 </div>
-<div id="animatedModalFaq">
+<div id="animatedModalFaq" class="modalContainer">
 	<div id="btn-close-modal" class="closeModal close-animatedModalFaq">
 		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
 	</div>
@@ -318,7 +318,7 @@ get_header(); ?>
 	</div>
 </div>
 
-<div id="animatedModalFran1">
+<div id="animatedModalFran1" class="modalContainer">
 	<div id="btn-close-modal" class="closeModal close-animatedModalFran1">
 		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
 	</div>
@@ -327,7 +327,7 @@ get_header(); ?>
 		echo $my_post_obj->post_content; ?>
 	</div>
 </div>
-<div id="animatedModalFaq1">
+<div id="animatedModalFaq1" class="modalContainer">
 	<div id="btn-close-modal" class="closeModal close-animatedModalFaq1">
 		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
 	</div>
