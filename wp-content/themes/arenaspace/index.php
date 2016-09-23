@@ -29,25 +29,25 @@ get_header(); ?>
 		</a>
 		<ul class="nav">
 			<li class="nav__item">
-				<a href="#section-about" target="_blank">О нас</a>
+				<a href="#section-about" target="_blank" data-modal="false">О нас</a>
 			</li>
 			<li class="nav__item">
-				<a href="#section-inside" target="_blank">VR пространство</a>
+				<a href="#section-inside" target="_blank" data-modal="false">VR пространство</a>
 			</li>
 			<li class="nav__item">
-				<a href="#section-games" target="_blank">Каталог игр</a>
+				<a href="#section-games" target="_blank" data-modal="false">Каталог игр</a>
 			</li>
 			<li class="nav__item">
-				<a href="#section-address" target="_blank">Контакты</a>
+				<a href="#section-address" target="_blank" data-modal="false">Контакты</a>
 			</li>
 			<li class="nav__item">
-				<a href="#section-price" target="_blank">Цены</a>
+				<a href="#section-price" target="_blank" data-modal="false">Цены</a>
 			</li>
 			<li class="nav__item nav__item_info">
-				<a href="#section-form" target="_blank">FAQ</a>
+				<a href="#animatedModalFaq" class="modal1" target="_blank" data-modal="true" id="demo2">FAQ</a>
 			</li>
 			<li class="nav__item">
-				<a href="#" target="_blank">Франшиза</a>
+				<a href="#animatedModalFran" class="modal2" target="_blank" data-modal="true" id="demo1">Франшиза</a>
 			</li>
 		</ul>
 	</div>
@@ -155,7 +155,7 @@ get_header(); ?>
 	<h2 class="section-security__title">БЕЗОПАСНОСТЬ ВСЕЛЕННОЙ ARENA SPACE</h2>
 	<p class="section-security__sub-text">Мы делаем все для вашего безопасного погружения!</p>
 	<div class="section-security__feature-list">
-		<ul class="columnize-js">
+		<ul class="feature-list-columnize-js">
 			<li>Мягкие стены - против ударов</li>
 			<li>Сменные накладки - для гигиены</li>
 			<li>Безопасный контент для детей</li>
@@ -273,25 +273,25 @@ get_header(); ?>
 		<div class="column">
 			<ul class="nav nav_footer">
 				<li class="nav__item">
-					<a href="#section-about" target="_blank">О нас</a>
+					<a href="#section-about" target="_blank" data-modal="false">О нас</a>
 				</li>
 				<li class="nav__item">
-					<a href="#section-inside" target="_blank">VR пространство</a>
+					<a href="#section-inside" target="_blank" data-modal="false">VR пространство</a>
 				</li>
 				<li class="nav__item">
-					<a href="#section-games" target="_blank">Каталог игр</a>
+					<a href="#section-games" target="_blank" data-modal="false">Каталог игр</a>
 				</li>
 				<li class="nav__item">
-					<a href="#section-address" target="_blank">Контакты</a>
+					<a href="#section-address" target="_blank" data-modal="false">Контакты</a>
 				</li>
 				<li class="nav__item">
-					<a href="#section-price" target="_blank">Цены</a>
+					<a href="#section-price" target="_blank" data-modal="false">Цены</a>
 				</li>
 				<li class="nav__item">
-					<a href="#section-form" target="_blank">FAQ</a>
+					<a href="#animatedModalFaq1" target="_blank" data-modal="true" id="demo4">FAQ</a>
 				</li>
 				<li class="nav__item">
-					<a href="#" target="_blank">Франшиза</a>
+					<a href="#animatedModalFran1" target="_blank" data-modal="true" id="demo3">Франшиза</a>
 				</li>
 			</ul>
 		</div>
@@ -304,6 +304,43 @@ get_header(); ?>
 	</div>
 </footer>
 
+<div id="animatedModalFran">
+	<div id="btn-close-modal" class="closeModal close-animatedModalFran">
+		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
+	</div>
+	<div class="modal-content">
+		<?php $my_post_obj = get_post( 21 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		echo $my_post_obj->post_content; ?>
+	</div>
+</div>
+<div id="animatedModalFaq">
+	<div id="btn-close-modal" class="closeModal close-animatedModalFaq">
+		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
+	</div>
+	<div class="modal-content">
+		<?php $my_post_obj = get_post( 23 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		echo $my_post_obj->post_content; ?>
+	</div>
+</div>
+
+<div id="animatedModalFran1">
+	<div id="btn-close-modal" class="closeModal close-animatedModalFran1">
+		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
+	</div>
+	<div class="modal-content">
+		<?php $my_post_obj = get_post( 21 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		echo $my_post_obj->post_content; ?>
+	</div>
+</div>
+<div id="animatedModalFaq1">
+	<div id="btn-close-modal" class="closeModal close-animatedModalFaq1">
+		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
+	</div>
+	<div class="modal-content">
+		<?php $my_post_obj = get_post( 23 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		echo $my_post_obj->post_content; ?>
+	</div>
+</div>
 
 
 <?php get_footer(); ?>

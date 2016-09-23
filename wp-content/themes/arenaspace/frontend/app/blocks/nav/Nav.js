@@ -23,11 +23,13 @@ var Nav = {
             var $target = $( $(this).attr('href') );
             var scrollPosition = $target.offset().top - 100;
             $('html,body').animate({scrollTop: scrollPosition}, Nav.config.scrollAnimationDuration);
+            return false;
         } else {
-            console.log('it is modal');
+            
+            return false;
         }
 
-        return false;
+
     }
 };
 

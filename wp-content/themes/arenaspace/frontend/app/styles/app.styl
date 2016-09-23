@@ -5,8 +5,10 @@ import('helpers/svg-size')
 @import 'helpers/fonts'
 @import 'helpers/optimize'
 
+
 import('../blocks/**/*')
 
+@import 'helpers/animate.css'
 html
 	min-width 1200px
 
@@ -23,6 +25,22 @@ body
 	width 1200px
 	margin auto
 	position relative
+
+.closeModal
+	margin-top 20px
+	margin-bottom 50px
+	text-align center
+	opacity 0.8
+
+	&:hover
+		opacity 1
+
+.modal-content
+	color white
+	width 80%
+	margin auto
+
+
 
 
 

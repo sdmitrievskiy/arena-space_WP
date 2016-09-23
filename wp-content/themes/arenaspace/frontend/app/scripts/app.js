@@ -7,6 +7,7 @@ import SectionSecurity from './../blocks/section-security/SectionSecurity';
 import SectionForm from './../blocks/section-form/SectionForm';
 import SectionInside from './../blocks/section-inside/SectionInside';
 
+require('./vendor/animatedModal.js');
 
 $(document).ready(function () {
 
@@ -19,6 +20,13 @@ $(document).ready(function () {
     SectionSecurity.init();
     SectionForm.init();
     SectionInside.init();
+
+    $('#demo1').animatedModal({modalTarget: 'animatedModalFran'});
+    $('#demo2').animatedModal({modalTarget: 'animatedModalFaq'});
+
+    $('#demo3').animatedModal({modalTarget: 'animatedModalFran1'});
+    $('#demo4').animatedModal({modalTarget: 'animatedModalFaq1'});
+
     
 });
 

@@ -37,15 +37,17 @@
 			},
 			{
 				"title": "FAQ",
-				"href": "#section-form",
+				"href": "#animatedModalFaq",
 				"mod": "info",
-				"modal": "true"
+				"modal": "true",
+				"id": "demo2"
 			},
 			{
 				"title": "Франшиза",
-				"href": "#",
+				"href": "#animatedModalFran",
 				"mod": "common",
-				"modal": "true"
+				"modal": "true",
+				"id": "demo1"
 
 			}
 		]
