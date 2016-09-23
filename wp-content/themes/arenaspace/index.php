@@ -304,7 +304,7 @@ get_header(); ?>
 		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
 	</div>
 	<div class="modal-content">
-		<?php $my_post_obj = get_post( 21 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		<?php $my_post_obj = get_post( 25 ); // параметр функции - ID поста, содержимое которого нужно вывести
 		echo $my_post_obj->post_content; ?>
 	</div>
 </div>
@@ -313,7 +313,7 @@ get_header(); ?>
 		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
 	</div>
 	<div class="modal-content">
-		<?php $my_post_obj = get_post( 23 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		<?php $my_post_obj = get_post( 27 ); // параметр функции - ID поста, содержимое которого нужно вывести
 		echo $my_post_obj->post_content; ?>
 	</div>
 </div>
@@ -323,7 +323,7 @@ get_header(); ?>
 		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
 	</div>
 	<div class="modal-content">
-		<?php $my_post_obj = get_post( 21 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		<?php $my_post_obj = get_post( 25 ); // параметр функции - ID поста, содержимое которого нужно вывести
 		echo $my_post_obj->post_content; ?>
 	</div>
 </div>
@@ -332,7 +332,7 @@ get_header(); ?>
 		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
 	</div>
 	<div class="modal-content">
-		<?php $my_post_obj = get_post( 23 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		<?php $my_post_obj = get_post( 27 ); // параметр функции - ID поста, содержимое которого нужно вывести
 		echo $my_post_obj->post_content; ?>
 	</div>
 </div>

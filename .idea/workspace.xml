@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60b300e9-2634-4702-aae1-1a98380b8a76" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/assets/images/icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/assets/images/sprites/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/assets/scripts/app.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/assets/scripts/app.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/assets/scripts/modernizr-bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeextrabold/CRC65__W.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeextrabold/CRC65__W.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeextrabold/CRC65__W.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeextrabold/CRC65__W.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeextrabold/CRC65__W.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeregular/CRC35__W.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeregular/CRC35__W.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeregular/CRC35__W.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeregular/CRC35__W.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/circeregular/CRC35__W.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/opensans/opensans.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/opensans/opensans.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/fonts/opensans/opensans.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/about_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/arrow_state-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/arrow_state-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/arrow_state-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/arrow_state-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/closebt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/form_bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/form_bg_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/game.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/logo_footer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/partners.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/partners_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/images/video.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/sample.mp4" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/pages/index.jade" afterPath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/pages/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/styles/app.styl" afterPath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/styles/app.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/assets/styles/app.min.css" afterPath="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/dist/assets/styles/app.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/arenaspace/index.php" />
     </list>
     <ignored path="arena-space_local.iws" />
@@ -67,8 +28,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="301" column="50" selection-start-line="301" selection-start-column="50" selection-end-line="301" selection-end-column="50" />
+            <state relative-caret-position="289">
+              <caret line="306" column="41" selection-start-line="306" selection-start-column="41" selection-end-line="306" selection-end-column="41" />
               <folding>
                 <element signature="n#table#0;n#section#5;n#!!top" expanded="false" />
               </folding>
@@ -850,12 +811,12 @@
       <option name="presentableId" value="Default" />
       <updated>1474189823795</updated>
       <workItem from="1474189825935" duration="34237000" />
-      <workItem from="1474642663507" duration="4582000" />
+      <workItem from="1474642663507" duration="4696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38819000" />
+    <option name="totallyTimeSpent" value="38933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1898,7 +1859,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="195" column="12" selection-start-line="195" selection-start-column="12" selection-end-line="247" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="n#table#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1954,8 +1917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="301" column="50" selection-start-line="301" selection-start-column="50" selection-end-line="301" selection-end-column="50" />
+        <state relative-caret-position="289">
+          <caret line="306" column="41" selection-start-line="306" selection-start-column="41" selection-end-line="306" selection-end-column="41" />
           <folding>
             <element signature="n#table#0;n#section#5;n#!!top" expanded="false" />
           </folding>
