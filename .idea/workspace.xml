@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60b300e9-2634-4702-aae1-1a98380b8a76" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/arenaspace/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/arenaspace/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
     </list>
     <ignored path="arena-space_local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,16 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section-price.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/section-price/section-price.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="section-price.styl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/section-price/section-price.styl">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,7 +150,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/.gitignore" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$USER_HOME$/Downloads/arena-space_local.sql" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/logo/logo.jade" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/fixed-menu/fixed-menu.jade" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/styles/app.styl" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/arenaspace/header.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
       </list>
     </option>
   </component>
@@ -371,12 +371,12 @@
       <option name="presentableId" value="Default" />
       <updated>1474189823795</updated>
       <workItem from="1474189825935" duration="34237000" />
-      <workItem from="1474642663507" duration="4938000" />
+      <workItem from="1474642663507" duration="4985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39175000" />
+    <option name="totallyTimeSpent" value="39222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -424,13 +424,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/arena-space_local.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="361" column="0" selection-start-line="361" selection-start-column="0" selection-end-line="361" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/arenaspace/frontend/app/blocks/logo/logo.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1482,6 +1475,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>

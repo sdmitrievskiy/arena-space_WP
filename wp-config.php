@@ -23,16 +23,16 @@ define('WP_DEBUG', false);
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 
 //development
-define('DB_NAME', 'arena-space_local');
-define('DB_USER', 'root');
-define('DB_PASSWORD', 'root');
-define('DB_HOST', 'localhost');
+//define('DB_NAME', 'arena-space_local');
+//define('DB_USER', 'root');
+//define('DB_PASSWORD', 'root');
+//define('DB_HOST', 'localhost');
 
 //production
-//define('DB_NAME', 'arspaceru_db');
-//define('DB_USER', 'arspaceru_mysql');
-//define('DB_PASSWORD', 'En4zGpQ+');
-//define('DB_HOST', 'arspaceru.mysql');
+define('DB_NAME', 'arspaceru_db');
+define('DB_USER', 'arspaceru_mysql');
+define('DB_PASSWORD', 'En4zGpQ+');
+define('DB_HOST', 'arspaceru.mysql');
 
 
 /** Кодировка базы данных для создания таблиц. */
