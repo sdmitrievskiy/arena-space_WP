@@ -27,6 +27,8 @@ $(document).ready(function () {
     $('#demo3').animatedModal({modalTarget: 'animatedModalFran1'});
     $('#demo4').animatedModal({modalTarget: 'animatedModalFaq1'});
 
+    $('#demo5').animatedModal({modalTarget: 'animatedModalAferta'}); 
+
 
     $('html,body').animate({scrollTop: $(document).scrollTop()+1  }, 10);
 

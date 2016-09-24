@@ -288,6 +288,9 @@ get_header(); ?>
 				<li class="nav__item">
 					<a href="#animatedModalFran1" target="_blank" data-modal="true" id="demo3">Франшиза</a>
 				</li>
+				<li class="nav__item">
+					<a href="#animatedModalAferta" target="_blank" data-modal="true" id="demo5">Публичная аферта</a>
+				</li>
 			</ul>
 		</div>
 		<div class="socials">
@@ -333,6 +336,16 @@ get_header(); ?>
 	</div>
 	<div class="modal-content">
 		<?php $my_post_obj = get_post( 27 ); // параметр функции - ID поста, содержимое которого нужно вывести
+		echo $my_post_obj->post_content; ?>
+	</div>
+</div>
+
+<div id="animatedModalAferta" class="modalContainer">
+	<div id="btn-close-modal" class="closeModal close-animatedModalAferta">
+		<img src="<? echo get_template_directory_uri(); ?>/frontend/dist/images/closebt.svg">
+	</div>
+	<div class="modal-content">
+		<?php $my_post_obj = get_post( 40 ); // параметр функции - ID поста, содержимое которого нужно вывести
 		echo $my_post_obj->post_content; ?>
 	</div>
 </div>
